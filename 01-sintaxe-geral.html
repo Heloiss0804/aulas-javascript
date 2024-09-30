@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Começando com JavaScript</h1>
+<hr>
+
+<script>
+    // CRTL; (comentário de linha única)
+
+    // SHIFT Alt A ( comentário de multiplas linhas)*/
+
+    // Comando de saída (ultil pra testes básicos)
+    console.log("Hello Word");
+
+    // Manipulação de dados na MEMÒRIA
+     /* Criação de espaços na memória RAM do computador através de VARIÁVEIS e/ou CONSTANTES.
+     
+     VAriável: declaradas com a palavra-chave let
+     Constante: declaradas com a palavra const.
+     
+     */
+
+    // Declaração ( criando na memória RAM)
+
+let ano = 2024;
+const aluno = "Heloisa Germano"; 
+
+// Saída (acessando/exibindo/usando console)
+
+console.log(ano);
+console.log(aluno);
+
+/*   Declarando uma relação de variáveis: Elas iniciam sem valor atribído, porntanto, são consideradas indefinidas (undefined).*/
+
+let teste1, teste2, teste3;
+
+console.log (teste1);
+
+/* ATRIBUINDO valores às variáveis */
+teste1 = "Exemplo 1";
+
+console.log(teste1);
+
+let valor1 = 10; //inteiro 
+let valor2 = 5; //inteiro 
+let valor3 = 1200.55; // decimal, "quebrado"
+
+/* Operações básicas */
+
+let soma = valor1 + valor2;
+let subtração = valor1 - valor2;
+let multiplicao = valor1 * valor2;
+let divisao = valor1 / valor2;
+/* Exmplo de uso da função matemática */
+let resultado = Math.sqrt(soma);
+console.log(resultado);
+console.log (soma);
+console.log (subtração);
+console.log (multiplicao);
+console.log (divisao);
+
+/* Saída de dados personalizada 
+Frase para exemplo:
+"Olá! Me chamo Heloisa e não vejo a hora de acabar o ano de2024."*/
+
+
+// Forma 1: Concatenação (tradicional,antiga)
+
+console.log ("Olá! Me chamo "+aluno+" e a não vejo a hora de acabar o ano de "+ano+".");
+console.log ("soma: "+soma);
+console.log ("subtracao: "+subtração);
+console.log ("multiplicacao: "+multiplicao);
+console.log ("divisao: "+divisao);
+
+
+
+// Forma 2: Template Literal/String (moderna)
+
+console.log(`Olá! Me chamo ${aluno} e não vejo a hora de acabar o ano de ${ano}.`)
+
+
+</script>
+    
+</body>
+</html>
