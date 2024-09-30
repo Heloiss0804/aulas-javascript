@@ -4,7 +4,7 @@ Introdução ao Java Script para uso básico.
 
 ## Sobre a Linguagen
 
-- JavaScript **NÂO É** Java
+- JavaScript **NãO É** Java
 - JavaSceript = JS = EcmaScript
 - É uma linguagem voltada principalmente para o Front-End
 - MAs também pode ser usada no Back-End através de plataformas com Node.JS por exemplo
