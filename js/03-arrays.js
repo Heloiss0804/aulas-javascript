@@ -33,6 +33,9 @@ console.log(tecnologias[2][3]);//Express
 console.log(tecnologias[0][0]);// HTML5
 
 
+
+
+
  
  
 
