@@ -37,3 +37,5 @@ Programação feita dentro de arquivos JavaScript exclusivos (possuem a extensã
 Arrays são estruturas de dados **indexados**, também conhecidos como **vetores** ou **matrizes**.
 
 Na prática, um array é lista de dados sequencias, e cada dado é armazenado em uma posição/índice de array.
+
+**Obs.:** a contagem de elementos do array **sempre inicia em zero**.
