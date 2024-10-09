@@ -47,3 +47,41 @@ Na prática, um array é lista de dados sequencias, e cada dado é armazenado em
 Objetos também são estruturas de dados só que **não indexados**, ou seja, o acesso aos dados é feito de forma diferente do que vimos nos arrays. No objeto, acessamos atráves de **prioridades** e **valores** declarados dentro do objeto.
 
 Normalmente, o objeto é programado de acordo com algum contexto relacionado ao mundo real.
+
+---
+
+## Sobre condicionais
+
+São estruturas ou comandos, que permitem usar uma ou mais condições dentro de uma aplicação.
+
+De acordo com essa análise, podendo ser **verdadeiro/true** ou **falso/false**, a aplicação poderá fazer ações diferentes.
+
+## Operadores Opcionais
+
+Ao trabalhar com operadores opcionais, é comum ultilizar operações relacionais para comparações dentro das condições. Os operadores mais comuns são:
+
+- Maior que         >
+- Menor que         <
+- Maior ou igual   >=
+- Menor ou igual   <=
+- Igualdade        ==
+- Diferença        !=
+
+
+---
+
+## Sobre comandos de repetição
+
+São estruturas/comandos que permitem a execução repetidas vezes de uma ou mais ações/ comando/ operações. Também conhecidos como **loops** ou **laços de repetições**
+
+A quantidade vezes que o loop será executado dependerá de alguma lógicaou condição definida pelo programador ou pelo sistema/aplicação. Também é comum que, para que o loop pare de executar, seja definida uma variável de controle de repetição.
+
+## Dom
+
+/* Funçoes de acersso e manipulação de DOM
+
+- querySelector () é uma função para selecionar UM ÚNICO elemendo da página (DOM).
+
+- querySeletorAll() é uma funçao para selecionar VÁRIOS elementos na página (DOm).
+
+Nos dois casos, a seleção é feita usando seletores comuns ao que fazemos no CSS*/
